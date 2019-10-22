@@ -2,3 +2,6 @@ bower_components
 node_modules
 *.log
 .DS_Store
+public/index.html
+public/index.js
+public/index.js.map

@@ -19,7 +19,6 @@
     "serve": "^11.2.0"
   },
   "dependencies": {
-    "canvas-sketch": "^0.7.0",
-    "p5": "^0.10.2"
+    "canvas-sketch": "^0.7.0"
   }
 }

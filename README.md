@@ -2,6 +2,15 @@
 
 A template for creating MP4s from p5.js sketches.
 
+# Structure
+
+- Assets (images, models) are kept in `public/assets/`
+- Libraries like p5 are kept in `public/vendor/`
+- Your sketch goes in `src/sketches/sketch.js`
+- Your HTML can be edited in `src/index.html`
+
+# Steps to Run
+
 ## Step 1
 
 Clone or download this repo.
@@ -21,7 +30,7 @@ Run `npm run dev` to start editing in [http://localhost:5000](http://localhost:5
 
 ## Step 4
 
-Replace `sketches/sketch.js` with your `sketch.js`. Update `index.html` if you need any other references (e.g. clmtrackr).
+Replace `src/sketches/sketch.js` with your `sketch.js`. Update `index.html` if you need any other references (e.g. clmtrackr).
 
 ## Step 5
 

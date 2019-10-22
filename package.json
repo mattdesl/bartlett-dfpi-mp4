@@ -1,0 +1,25 @@
+{
+  "name": "bartlett-dfpi-mp4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "canvas-sketch src/init.js --dir=public --html=src/index.html --stream=mp4 --port=5000",
+    "dev:gif": "canvas-sketch src/init.js --dir=public --html=src/index.html --stream=gif --port=5000",
+    "start:build": "canvas-sketch src/init.js --dir=public --html=src/index.html --build --name=index",
+    "start:server": "serve public/",
+    "start": "npm run start:build && npm run start:server"
+  },
+  "keywords": [],
+  "author": "Matt DesLauriers <dave.des@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "canvas-sketch-cli": "^1.11.4",
+    "serve": "^11.2.0"
+  },
+  "dependencies": {
+    "canvas-sketch": "^0.7.0",
+    "p5": "^0.10.2"
+  }
+}
